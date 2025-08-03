@@ -1,3 +1,16 @@
+/* conatct us section */
+.bg-services {
+    background-color: #f4f4f569; /* light blue background */
+    padding: 2rem; /* padding for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.bg-constact-us{
+    background-color: #d4f1c194; /* light blue background */
+    padding: 2rem; /* padding for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
 /* effect for carousel images */
 .bg-effect {
     filter: brightness(0.5);
