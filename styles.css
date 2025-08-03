@@ -1,0 +1,36 @@
+/* effect for carousel images */
+.bg-effect {
+    filter: brightness(0.5);
+    transition: filter 0.3s;
+}
+/* Make carousel-item fill viewport height minus header */
+.carousel-item {
+    height: calc(50vh);
+    min-height: 400px;
+}
+.carousel-item img {
+    height: calc(50vh);
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    .carousel-item {
+        height: calc(50vh);
+        min-height: 300px;
+    }
+    .carousel-item img {
+        height: calc(50vh);
+        min-height: 300px;
+    }
+}
+/* Reset border and margin for all elements */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* Make Bootstrap nav links black */
+.nav-link {
+    color: #000 !important;
+}
