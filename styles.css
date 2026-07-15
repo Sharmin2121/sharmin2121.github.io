@@ -523,7 +523,7 @@ a:hover {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
